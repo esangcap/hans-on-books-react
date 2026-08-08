@@ -11,3 +11,4 @@ out/
 *.diff
 *.dump
 *.bak
+*.tsbuildinfo

@@ -1,0 +1,107 @@
+/* ==========================================================
+   DESIGN TOKENS
+========================================================== */
+
+:root{
+
+    /* Brand */
+
+    --navy:#0F2744;
+    --emerald:#2E8B57;
+    --gold:#C9A227;
+
+    /* Neutral */
+
+    --white:#FFFFFF;
+
+    --gray-50:#FAFAFA;
+    --gray-100:#F5F5F5;
+    --gray-200:#EEEEEE;
+    --gray-300:#DDDDDD;
+    --gray-400:#BBBBBB;
+    --gray-500:#8A8A8A;
+    --gray-600:#666666;
+    --gray-700:#444444;
+    --gray-800:#2D2D2D;
+    --gray-900:#151515;
+
+    /* Fonts */
+
+    --heading:'DM Serif Display', serif;
+    --body:'Poppins', sans-serif;
+
+    /* Width */
+
+    --container:1280px;
+
+    /* Radius */
+
+    --radius-xs:6px;
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --radius-xl:36px;
+    --radius-round:999px;
+
+    /* Shadow */
+
+    --shadow-sm:0 5px 15px rgba(15,39,68,.04);
+    --shadow:0 12px 40px rgba(15,39,68,.08);
+    --shadow-lg:0 25px 80px rgba(15,39,68,.15);
+
+    /* Transition */
+
+    --transition:.35s ease;
+/* Status Colors */
+
+--success:#22C55E;
+--warning:#F59E0B;
+--danger:#DC2626;
+/* ==========================================================
+   COMPONENT COLORS
+========================================================== */
+
+--surface:#FFFFFF;
+--surface-alt:#EEF8F2;
+
+--border:#EEF1F5;
+--border-light:#E8ECEF;
+
+--shadow-card:0 12px 30px rgba(15,39,68,.05);
+--shadow-card-hover:0 25px 60px rgba(15,39,68,.10);
+/* ==========================================================
+   SURFACES
+========================================================== */
+
+--surface-light:#F7F9FC;
+--surface-muted:#F2F7F4;
+
+--portfolio-bg:#F8FAFC;
+
+--placeholder-bg:#EEF3F8;
+--placeholder-border:#DCE4EC;
+/* ==========================================================
+   COMPONENT SURFACES
+========================================================== */
+
+--banner-bg:#F4F7FA;
+/* ==========================================================
+   FORM & COMPONENT COLORS
+========================================================== */
+
+--faq-bg:#FFFFFF;
+--form-bg:#FFFFFF;
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+--footer-bg:#01142E;
+
+--footer-text:rgba(255,255,255,.75);
+
+--footer-border:rgba(255,255,255,.10);
+
+--footer-muted:rgba(255,255,255,.60);
+
+--focus-ring:0 0 0 4px rgba(46,139,87,.12);
+}

@@ -1,0 +1,1453 @@
+/* ==========================================================
+   HANS ON BOOKS
+   RESPONSIVE STYLES
+========================================================== */
+
+
+
+/* ==========================================================
+   LARGE DESKTOP
+   ≤ 1200px
+========================================================== */
+
+@media (max-width:1200px){
+
+    /* ======================================================
+       GLOBAL
+    ====================================================== */
+
+    section{
+
+        padding:100px 0;
+
+    }
+
+    h1{
+
+        font-size:4.8rem;
+
+    }
+
+    h2{
+
+        font-size:3.3rem;
+
+    }
+
+    .container{
+
+        width:min(94%,1280px);
+
+    }
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    .nav-menu{
+
+        gap:36px;
+
+    }
+
+    .logo img{
+
+        height:72px;
+
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero-grid{
+
+        gap:60px;
+
+    }
+
+    .hero-content{
+
+        max-width:600px;
+
+    }
+
+    .hero-dashboard{
+
+        max-width:540px;
+
+    }
+
+    .dashboard-card{
+
+        padding:24px;
+
+    }
+
+    .hero h1{
+
+        font-size:5rem;
+
+    }
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+
+    .services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:28px;
+
+    }
+
+    /* ======================================================
+       PROCESS
+    ====================================================== */
+
+    .timeline{
+
+        gap:18px;
+
+    }
+
+    .timeline-number{
+
+        width:70px;
+
+        height:70px;
+
+    }
+
+    /* ======================================================
+       PORTFOLIO
+    ====================================================== */
+
+    .portfolio-grid{
+
+        gap:28px;
+
+    }
+
+    /* ======================================================
+       ABOUT
+    ====================================================== */
+
+    .about-grid{
+
+        grid-template-columns:360px 1fr;
+
+        gap:60px;
+
+    }
+
+    .portrait-placeholder{
+
+        width:360px;
+
+        height:470px;
+
+    }
+
+    .about-highlights{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+
+    .why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       RESOURCES
+    ====================================================== */
+
+    .resources-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       CONTACT
+    ====================================================== */
+
+    .contact-grid{
+
+        grid-template-columns:1.5fr 1fr;
+
+    }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    .footer-grid{
+
+        grid-template-columns:2fr 1fr 1fr;
+
+    }
+
+}
+
+
+
+/* ==========================================================
+   TABLET LANDSCAPE
+   ≤ 1024px
+========================================================== */
+
+@media (max-width:1024px){
+
+    /* ======================================================
+       GLOBAL
+    ====================================================== */
+
+    section{
+
+        padding:90px 0;
+
+    }
+
+    h1{
+
+        font-size:4rem;
+
+    }
+
+    h2{
+
+        font-size:3rem;
+
+    }
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    .navbar{
+
+        height:80px;
+
+    }
+
+    .logo img{
+
+        height:66px;
+
+    }
+
+    .nav-menu,
+
+    .nav-buttons{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+    }
+
+    .mobile-menu{
+
+        width:380px;
+
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero-grid{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .hero-content{
+
+        max-width:100%;
+
+        text-align:center;
+
+    }
+
+    .hero p{
+
+        max-width:700px;
+
+        margin-inline:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero-right{
+
+        width:100%;
+
+        align-items:center;
+
+    }
+
+    .hero-dashboard{
+
+        width:100%;
+
+        max-width:700px;
+
+    }
+
+    .hero-stats{
+
+        width:100%;
+
+    }
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+
+    .services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       PROCESS
+    ====================================================== */
+
+    .timeline{
+
+        grid-template-columns:repeat(5,1fr);
+
+        gap:16px;
+
+    }
+
+    .timeline-number{
+
+        width:60px;
+
+        height:60px;
+
+    }
+
+    /* ======================================================
+       PORTFOLIO
+    ====================================================== */
+
+    .portfolio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .project-card:first-child{
+
+        grid-column:auto;
+
+    }
+
+    /* ======================================================
+       ABOUT
+    ====================================================== */
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .about-content{
+
+        text-align:center;
+
+        max-width:100%;
+
+    }
+
+    .about-image{
+
+        justify-content:center;
+
+    }
+
+    .portrait-placeholder{
+
+        width:100%;
+
+        max-width:380px;
+
+        height:460px;
+
+    }
+
+    .mission-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       TESTIMONIALS
+    ====================================================== */
+
+    .testimonial-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       RESOURCES
+    ====================================================== */
+
+    .resources-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       CONTACT
+    ====================================================== */
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .discovery-box ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .footer-column{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+}
+/* ==========================================================
+   TABLET PORTRAIT
+   ≤ 768px
+========================================================== */
+
+@media (max-width:768px){
+
+    /* ======================================================
+       GLOBAL
+    ====================================================== */
+
+    section{
+
+        padding:80px 0;
+
+    }
+
+    .container{
+
+        width:94%;
+
+    }
+
+    h1{
+
+        font-size:3.4rem;
+
+    }
+
+    h2{
+
+        font-size:2.6rem;
+
+    }
+
+    h3{
+
+        font-size:1.8rem;
+
+    }
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    .navbar{
+
+        height:72px;
+
+    }
+
+    .logo img{
+
+        height:60px;
+
+    }
+
+    .mobile-menu{
+
+        width:100%;
+
+    }
+
+  /* ======================================================
+   HERO
+====================================================== */
+
+.hero{
+
+    padding-top:100px;
+
+}
+
+.hero-grid{
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+.hero-content{
+
+    width:100%;
+
+    max-width:100%;
+
+    text-align:center;
+
+}
+
+.hero .eyebrow{
+
+    font-size:.8rem;
+
+    letter-spacing:3px;
+
+    line-height:1.8;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+    line-height:1.05;
+
+    margin-bottom:20px;
+
+    word-break:normal;
+
+}
+
+.hero p{
+
+    width:100%;
+
+    max-width:560px;
+
+    margin:0 auto 30px;
+
+    font-size:1rem;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:16px;
+
+}
+
+.hero-buttons .btn{
+
+    min-width:220px;
+
+}
+
+.hero-right{
+
+    width:100%;
+
+}
+
+.hero-dashboard{
+
+    width:100%;
+
+    max-width:680px;
+
+    margin:0 auto;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.chart{
+
+    grid-column:1 / -1;
+
+}
+
+.hero-stats{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:16px;
+
+}
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+
+    .services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:24px;
+
+    }
+
+    /* ======================================================
+       PROCESS
+    ====================================================== */
+
+    .timeline{
+
+        grid-template-columns:1fr;
+
+        gap:36px;
+
+    }
+
+    .timeline::before{
+
+        display:none;
+
+    }
+
+    .timeline-item{
+
+        text-align:left;
+
+    }
+
+    .timeline-number{
+
+        margin:0 0 20px;
+
+    }
+
+    /* ======================================================
+       PORTFOLIO
+    ====================================================== */
+
+    .portfolio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .project-card:first-child{
+
+        grid-column:auto;
+
+    }
+
+    /* ======================================================
+       ABOUT
+    ====================================================== */
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .about-image{
+
+        justify-content:center;
+
+    }
+
+    .portrait-placeholder{
+
+        max-width:380px;
+
+        width:100%;
+
+        height:460px;
+
+    }
+
+    .about-content{
+
+        text-align:center;
+
+    }
+
+    .about-highlights{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:20px;
+
+    }
+
+    .mission-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       TESTIMONIALS
+    ====================================================== */
+
+    .testimonial-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+
+    .why-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       RESOURCES
+    ====================================================== */
+
+    .resources-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    /* ======================================================
+       CONTACT
+    ====================================================== */
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .discovery-box ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    .footer-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:36px;
+
+    }
+
+}
+/* ==========================================================
+   MOBILE
+   ≤ 576px
+========================================================== */
+
+/* ==========================================================
+   LARGE MOBILE
+   ≤ 576px
+========================================================== */
+
+@media (max-width:576px){
+
+    /* ======================================================
+       GLOBAL
+    ====================================================== */
+
+    section{
+
+        padding:70px 0;
+
+    }
+
+    .container{
+
+        width:95%;
+
+    }
+
+    h1{
+
+        font-size:2.6rem;
+
+        line-height:1.1;
+
+    }
+
+    h2{
+
+        font-size:2.2rem;
+
+    }
+
+    h3{
+
+        font-size:1.5rem;
+
+    }
+
+    p{
+
+        font-size:.95rem;
+
+    }
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    .navbar{
+
+        height:68px;
+
+    }
+
+    .logo img{
+
+        height:52px;
+
+    }
+
+    .mobile-menu nav{
+
+        padding:90px 24px 32px;
+
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+        padding-top:95px;
+
+    }
+
+    .hero-grid{
+
+        gap:36px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+        max-width:none;
+
+    }
+
+    .hero-dashboard{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+    }
+
+    .chart{
+
+        grid-column:auto;
+
+    }
+
+    .hero-stats{
+
+        grid-template-columns:1fr;
+
+        gap:16px;
+
+    }
+
+    .dashboard-card{
+
+        padding:22px;
+
+    }
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+
+    .service-card{
+
+        padding:28px;
+
+    }
+
+    /* ======================================================
+       PROCESS
+    ====================================================== */
+
+    .timeline{
+
+        gap:30px;
+
+    }
+
+    .timeline-item{
+
+        text-align:center;
+
+    }
+
+    .timeline-number{
+
+        margin:0 auto 18px;
+
+    }
+
+    /* ======================================================
+       PORTFOLIO
+    ====================================================== */
+
+    .project-image{
+
+        height:200px;
+
+    }
+
+    .project-content{
+
+        padding:24px;
+
+    }
+
+    /* ======================================================
+       ABOUT
+    ====================================================== */
+
+    .portrait-placeholder{
+
+        max-width:300px;
+
+        height:380px;
+
+    }
+
+    .highlight-card{
+
+        padding:28px;
+
+    }
+
+    .mission-card{
+
+        padding:28px;
+
+    }
+
+    /* ======================================================
+       TESTIMONIALS
+    ====================================================== */
+
+    .testimonial-card{
+
+        padding:28px;
+
+    }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .why-card{
+
+        padding:30px;
+
+    }
+
+    .why-banner{
+
+        padding:24px;
+
+    }
+
+    /* ======================================================
+       RESOURCES
+    ====================================================== */
+
+    .resources-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .resource-content{
+
+        padding:24px;
+
+    }
+
+    /* ======================================================
+       CONTACT
+    ====================================================== */
+
+    .discovery-box{
+
+        padding:28px;
+
+    }
+
+    .contact-form,
+
+    .contact-info{
+
+        padding:28px;
+
+    }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .footer-column img{
+
+        height:110px;
+
+    }
+
+}
+/* ==========================================================
+   SMALL MOBILE
+   ≤ 400px
+========================================================== */
+
+@media (max-width:400px){
+
+    /* ======================================================
+       GLOBAL
+    ====================================================== */
+
+    section{
+
+        padding:60px 0;
+
+    }
+
+    .container{
+
+        width:96%;
+
+    }
+
+    h1{
+
+        font-size:2.2rem;
+
+        line-height:1.15;
+
+    }
+
+    h2{
+
+        font-size:1.9rem;
+
+        line-height:1.2;
+
+    }
+
+    h3{
+
+        font-size:1.35rem;
+
+    }
+
+    p{
+
+        font-size:.92rem;
+
+        line-height:1.7;
+
+    }
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    .navbar{
+
+        height:64px;
+
+    }
+
+    .logo img{
+
+        height:46px;
+
+    }
+
+    .menu-toggle{
+
+        width:40px;
+
+        height:40px;
+
+    }
+
+    .menu-toggle span{
+
+        width:22px;
+
+    }
+
+    .mobile-menu nav{
+
+        padding:80px 20px 24px;
+
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+        padding-top:90px;
+
+    }
+
+    .hero-grid{
+
+        gap:32px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero p{
+
+        font-size:.92rem;
+
+    }
+
+    .hero-buttons{
+
+        gap:12px;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+    }
+
+    .dashboard-card{
+
+        padding:18px;
+
+    }
+
+    .stat-card{
+
+        padding:18px;
+
+    }
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+
+    .service-card{
+
+        padding:24px;
+
+    }
+
+    .service-icon{
+
+        width:64px;
+
+        height:64px;
+
+    }
+
+    /* ======================================================
+       PROCESS
+    ====================================================== */
+
+    .timeline-item{
+
+        padding:0;
+
+    }
+
+    .timeline-number{
+
+        width:54px;
+
+        height:54px;
+
+        font-size:1rem;
+
+    }
+
+    /* ======================================================
+       PORTFOLIO
+    ====================================================== */
+
+    .project-image{
+
+        height:180px;
+
+    }
+
+    .project-content{
+
+        padding:20px;
+
+    }
+
+    /* ======================================================
+       ABOUT
+    ====================================================== */
+
+    .portrait-placeholder{
+
+        max-width:260px;
+
+        height:340px;
+
+    }
+
+    .highlight-card{
+
+        padding:24px;
+
+    }
+
+    .mission-card{
+
+        padding:24px;
+
+    }
+
+    /* ======================================================
+       TESTIMONIALS
+    ====================================================== */
+
+    .testimonial-card{
+
+        padding:24px;
+
+    }
+
+    .client{
+
+        gap:12px;
+
+    }
+
+    .client-avatar{
+
+        width:52px;
+
+        height:52px;
+
+    }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+
+    .why-card{
+
+        padding:24px;
+
+    }
+
+    .why-banner{
+
+        padding:20px;
+
+    }
+
+    .why-banner span{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    /* ======================================================
+       RESOURCES
+    ====================================================== */
+
+    .resource-image{
+
+        height:180px;
+
+    }
+
+    .resource-content{
+
+        padding:20px;
+
+    }
+
+    /* ======================================================
+       CONTACT
+    ====================================================== */
+
+    .discovery-box{
+
+        padding:24px;
+
+    }
+
+    .contact-form,
+
+    .contact-info{
+
+        padding:24px;
+
+    }
+
+    input,
+
+    textarea{
+
+        padding:16px 18px;
+
+    }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    .footer-grid{
+
+        gap:32px;
+
+    }
+
+    .footer-column img{
+
+        height:90px;
+
+    }
+
+}

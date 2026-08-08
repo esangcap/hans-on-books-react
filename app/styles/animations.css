@@ -1,0 +1,252 @@
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.btn{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-120%;
+
+    width:120%;
+    height:100%;
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.18),
+        transparent
+    );
+
+    transition:left .7s ease;
+
+}
+
+.btn:hover::before{
+
+    left:120%;
+
+}
+
+.btn:active{
+
+    transform:scale(.98);
+
+}
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.nav-menu a{
+
+    transition:
+        color var(--transition),
+        transform var(--transition);
+
+}
+
+.nav-menu a:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.logo img{
+
+    transition:
+        transform var(--transition),
+        filter var(--transition);
+
+}
+
+.logo:hover img{
+
+    transform:scale(1.03);
+
+    filter:drop-shadow(0 8px 20px rgba(46,139,87,.18));
+
+}
+/* ==========================================================
+   CARDS
+========================================================== */
+
+.service-card,
+.project-card,
+.highlight-card,
+.testimonial-card,
+.resource-card,
+.why-card,
+.mission-card{
+
+    transition:
+
+        transform var(--transition),
+
+        box-shadow var(--transition),
+
+        border-color var(--transition);
+
+}
+
+.service-card:hover,
+.project-card:hover,
+.highlight-card:hover,
+.testimonial-card:hover,
+.resource-card:hover,
+.why-card:hover,
+.mission-card:hover{
+
+    transform:
+
+        translateY(-10px)
+
+        scale(1.015);
+
+}
+/* ==========================================================
+   ICONS
+========================================================== */
+
+.service-icon,
+.why-icon{
+
+    transition:
+
+        transform var(--transition),
+
+        background var(--transition);
+
+}
+
+.service-card:hover .service-icon,
+.why-card:hover .why-icon{
+
+    transform:
+
+        rotate(-6deg)
+
+        scale(1.08);
+
+}
+/* ==========================================================
+   LINKS
+========================================================== */
+
+.project-content a,
+.resource-content a,
+.service-card a{
+
+    transition:
+
+        gap var(--transition),
+
+        color var(--transition);
+
+}
+
+.project-card:hover a,
+.resource-card:hover a,
+.service-card:hover a{
+
+    gap:16px;
+
+}
+/* ==========================================================
+   TIMELINE
+========================================================== */
+
+.timeline-number{
+
+    transition:
+
+        transform var(--transition),
+
+        background var(--transition),
+
+        box-shadow var(--transition);
+
+}
+
+.timeline-item:hover .timeline-number{
+
+    background:var(--emerald);
+
+    transform:scale(1.08);
+
+}
+/* ==========================================================
+   HERO STATS
+========================================================== */
+
+.stat-card{
+
+    transition:
+
+        transform var(--transition),
+
+        box-shadow var(--transition);
+
+}
+
+.stat-card:hover{
+
+    transform:
+
+        translateY(-8px)
+
+        scale(1.02);
+
+}
+/* ==========================================================
+   FORM
+========================================================== */
+
+input,
+textarea{
+
+    transition:
+
+        border-color var(--transition),
+
+        box-shadow var(--transition),
+
+        transform var(--transition);
+
+}
+
+input:focus,
+textarea:focus{
+
+    transform:translateY(-2px);
+
+}
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer-column a{
+
+    transition:
+
+        color var(--transition),
+
+        padding-left var(--transition);
+
+}
+
+.footer-column a:hover{
+
+    padding-left:6px;
+
+}

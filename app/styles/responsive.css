@@ -972,8 +972,17 @@
        SERVICES
     ====================================================== */
 
+    .services-grid{
+
+        grid-template-columns:1fr;
+        gap:20px;
+
+    }
+
     .service-card{
 
+        width:100%;
+        min-width:0;
         padding:28px;
 
     }
